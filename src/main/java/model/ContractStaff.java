@@ -6,8 +6,6 @@ public class ContractStaff extends Staff {
 
     public ContractStaff(String name, String password) {
         super(name, password);
-
-        //this.role = Role.DEVELOPER;
         this.role = ROLE.DEVELOPER;
         this.payRate = 75.00;
         this.id = Staff.employeeid;
